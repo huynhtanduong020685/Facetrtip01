@@ -1,0 +1,110 @@
+page-locals {
+    .scroll-content {
+        margin-top: 10.5vh;
+    }
+
+    .custon-content {
+        display: block;
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .info-facebook {
+        position: relative;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        display: block;
+        float: left;
+        width: 100%;
+        height: auto;
+
+        img {
+            max-width: 45vw !important;
+        }
+    }
+
+    .info-facebook-right {
+        max-width: 50vw !important;
+        position: absolute;
+        top: 0;
+        left: 47vw;
+
+        h5 {
+            margin-top: 0 !important;
+            margin-bottom: .5rem;
+        }
+
+        p {
+            margin: 0 !important;
+            font-size: .95em !important;
+            width: 100% !important;
+        }
+    }
+
+    .info-facebook-bot {
+        p {
+            margin: 0 !important;
+            font-size: .95em !important;
+        }
+    }
+
+    .Homestay {
+        display: block;
+        float: left;
+    }
+    
+    .homestay-content {
+      position: relative;
+      margin-left: 2vw;
+      display: block;
+      float: left;
+      width: 100%;
+      height: auto;
+
+      img {
+          margin-right: 2vw;
+          max-width: 60vw !important;
+          border: 1px !important;
+          border-color: black !important;
+          border-style: solid !important;
+      }
+  }
+
+    .homestay-top {
+      background: rgb(133, 133, 133);
+      width: 30vw;
+      height: 3.5vh;
+      text-align: center;
+      margin-bottom: 1vh;
+      p{
+        padding: 1.25vw 0 0 0;
+        color: #fff;
+      }
+    }
+
+    .homestay-right {
+        max-width: 32vw !important;
+        position: absolute;
+        top: 0;
+        left: 62vw;
+
+        p {
+            margin: 0 !important;
+            font-size: .95em !important;
+            width: 100% !important;
+
+        }
+    }
+
+    .Homestay-bot {
+
+        p {
+            color: rgb(113, 185, 95);
+            margin: 0 !important;
+            font-size: .95em !important;
+        }
+    }
+
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ionicstarwarsApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

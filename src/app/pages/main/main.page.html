@@ -1,0 +1,32 @@
+<app-custom-header></app-custom-header>
+  <ion-content padding>
+    <ion-button color="danger">ask locals<ion-icon name="chatboxes"></ion-icon>
+    </ion-button>
+
+    <!-- List of Sliding Items -->
+   <ion-list>
+     <ion-item *ngFor="let main of mains">
+      <ion-row>
+          <ion-col>
+              <ion-checkbox></ion-checkbox>
+           </ion-col>
+          <ion-col>
+              <img  [src]= "'assets/imgs/main/'+ main + '.png'"> 
+          </ion-col>
+          <ion-col>
+              <ion-label>{{ main }}</ion-label>
+          </ion-col>
+          <ion-col>
+              <ion-label>Localtions</ion-label>
+          </ion-col>
+          <ion-col>
+              <ion-label><ion-icon  name="home"></ion-icon></ion-label>
+          </ion-col>
+          <ion-col>
+              <ion-label>20$/day</ion-label>
+          </ion-col>
+      </ion-row>
+      </ion-item>
+    </ion-list>
+</ion-content>
+  
